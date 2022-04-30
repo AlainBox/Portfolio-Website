@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+:root {
+  --font-base: "DM Sans", sans-serif;
+  --font-code: "Roboto", sans-serif;
+
+  --primary-color: #14BDEB;
+  --secondary-color: #275DAD;
+  --tertiary-color: #DE7C5A;
+  --quaternary-color: #dfb4a6;
+  
+  --black-color: #030303;
+  --white-color: #ebebeb;
+  --lightGray-color: #e4e4e4;
+}
+
+[data-theme = "theme-2"]{
+  --primary-color: #6a040f;
+  --secondary-color: #dc2f02;
+  --tertiary-color: #e85d04;
+  --quaternary-color: #faa307;
+}
+
+[data-theme = "theme-3"]{
+  --primary-color: #8075ff;
+  --secondary-color: #6320ee;
+  --tertiary-color: #000;
+  --quaternary-color: #bdbdbd;
+}
+
+[data-theme = "theme-4"]{
+  --primary-color: #ffd166;
+  --secondary-color: #ef476f;
+  --tertiary-color: #06d6a0;
+  --quaternary-color: #118ab2;
+}
+
+[data-theme = "theme-5"]{
+  --primary-color: #143601;
+  --secondary-color: #245501;
+  --tertiary-color: #5e8a35;
+  --quaternary-color: #b6d393;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
